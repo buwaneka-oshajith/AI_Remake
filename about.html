@@ -70,76 +70,87 @@
 
 
 
-    <!-- ==================== Start Navbar ==================== -->
+     <!-- ==================== Start Navbar ==================== -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="#">
+            <img src="img/logos/logo.png" alt="logo">
+        </a>
 
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/logo-light.png" alt="logo">
-            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index2.html">Creative Studio</a>
-                            <a class="dropdown-item" href="index3.html">Business Startup</a>
-                            <a class="dropdown-item" href="index4.html">One Page</a>
-                            <a class="dropdown-item" href="index5.html">Freelancer</a>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                   
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                    <div class="dropdown-menu services-dropdown">
+                        <div class="row" style="margin-left: 15px;">
+                            <div class="col-lg-4">
+                                <h6 style="padding-left: 20px;">Digital</h6>
+                                <a class="dropdown-item" href="#">Web Design</a>
+                                <a class="dropdown-item" href="#">SEO</a>
+                                <a class="dropdown-item" href="#">SMM</a>
+                                <a class="dropdown-item" href="#">SMO</a>
+                                <a class="dropdown-item" href="#">Graphic Design</a>
+                                <a class="dropdown-item" href="#">Google Ads</a>
+                                <a class="dropdown-item" href="#">Lead Generation</a>
+                            </div>
+                            <div class="col-lg-4">
+                                <h6 style="padding-left: 20px;">Develop</h6>
+                                <a class="dropdown-item" href="#">Web Application</a>
+                                <a class="dropdown-item" href="#">Mobile Application</a>
+                           
+                            </div>
+                            <div class="col-lg-4">
+                                <h6 style="padding-left: 20px;">Studio</h6>
+                                <a class="dropdown-item" href="#">Videography</a>
+                                <a class="dropdown-item" href="#">Photography</a>
+                            </div>
                         </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Showcases</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="showcase.html">Full Screen</a>
-                            <a class="dropdown-item" href="showcase2.html">Creative Carousel</a>
-                            <a class="dropdown-item" href="showcase3.html">Radius Carousel</a>
-                            <a class="dropdown-item" href="showcase4.html">Columns Carousel</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="works.html">Mouse Info</a>
-                            <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-                            <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-                            <a class="dropdown-item" href="works4.html">Pinterest List</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
                     </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">SMM EVENTS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="smm_sanchraka_udawa.html">Sanchraka Udawa</a>
+                        <a class="dropdown-item" href="smm_colombo_hotelshow.html">Colombo Hotel Show </a>
+                        <a class="dropdown-item" href="smm_fham.html">FHAM</a>
+                        <a class="dropdown-item" href="smm_sl_boatshow.html">Boat Show</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <div class="search">
+                <span class="icon pe-7s-search cursor-pointer"></span>
+                <div class="search-form text-center custom-font">
+                    <form>
+                        <input type="text" name="search" placeholder="Search">
+                    </form>
+                    <span class="close pe-7s-close cursor-pointer"></span>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <!-- ==================== End Navbar ==================== -->
+    </div>
+</nav>
+<!-- ==================== End Navbar ==================== -->
 
 
 
