@@ -11,37 +11,16 @@
 }
 
 body {
-  color: #fff;
-  background: #0c0f16;
+  color: #0c0f16;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
   font-family: 'Poppins', sans-serif;
 
-  &.dark2{
-		background: #1e2128;
-
-    .main-content{
-      background: #1e2128;
-    }
-
-		.sub-bg,
-    .footer-half:after{
-			background: #21242b;
-		}
-
-    .nav-scroll,
-    .footer-half .copyrights{
-      background: #252830;
-      border-color: #363b45;
-    }
-	}
-}
-
-.main-content{
-	background: #0c0f16;
-	position: relative;
-	z-index: 3;
+  &.bd-dark{
+    color: #fff;
+    background: #0c0f16;
+  }
 }
 
 img {

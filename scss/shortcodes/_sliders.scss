@@ -585,6 +585,7 @@ header.simpl{
 			margin-top: 40px;
 
 			a{
+				color: #fff;
 				width: 55px;
 				height: 55px;
 				line-height: 55px;
@@ -931,7 +932,7 @@ header.simpl{
 			font-size: 30vw;
 			font-weight: bold;
 			color: transparent;
-    		-webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    		-webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
 			z-index: -1;
 			position: absolute;
 			width: 100%;
@@ -945,6 +946,12 @@ header.simpl{
 
 .static{
 	position: static;
+}
+
+.main-content{
+	background: #fff;
+	position: relative;
+	z-index: 3;
 }
 
 /* ====================== [ End Slider ] ====================== */

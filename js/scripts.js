@@ -326,6 +326,7 @@ $(function () {
         },
     });
 
+
     /* ===============================  Var Background image  =============================== */
 
     var pageSection = $(".bg-img, section");

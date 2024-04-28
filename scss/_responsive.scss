@@ -316,10 +316,6 @@
         background: #13161d;
     }
 
-    .testim-box .swiper-container .swiper-pagination{
-        display: none;
-    }
-
     .number-sec{
         padding-bottom: 70px;
     }
@@ -536,14 +532,6 @@
         font-size: 70px;
     }
 
-    header.simpl .caption h1{
-        font-size: 40px;
-    }
-
-    header.simpl .caption p{
-        font-size: 17px;
-    }
-
     .freelancer .cont h1{
         font-size: 60px;
     }
@@ -619,10 +607,6 @@
         font-size: 34px;
     }
 
-    .testim-box .swiper-container .swiper-wrapper .swiper-slide{
-        padding: 0 40px;
-    }
-
     .call-action .content h2{
         font-size: 7vw;
     }
@@ -672,6 +656,14 @@
 
     .slider-bus .caption h1{
         font-size: 50px;
+    }
+
+    header.simpl .caption h1{
+        font-size: 40px;
+    }
+
+    header.simpl .caption p{
+        font-size: 17px;
     }
 
     .slider .swiper-pagination-fraction.steps{
@@ -731,6 +723,10 @@
 
     .block-sec .vid-area .cont h3{
         font-size: 28px;
+    }
+
+    .testim-box .swiper-container .swiper-wrapper .swiper-slide{
+        padding: 0 40px;
     }
 
     .blog-curs .item{
